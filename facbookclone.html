@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facebook</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="images/facebook.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="nav-left">
+      <a href="index.html"><i class="fab fa-facebook"></i></a>
+
+      <div class="search">
+        <input type="search" id="mySearch" onkeyup="myFunction()" placeholder="Search Facebook"
+          title="Type in a category" />
+        <i class="fas fa-search"></i>
+        <ul id="myMenu">
+          <i onclick="closesearch()" class="fa fa-arrow-left" id="closesearch" aria-hidden="true">
+          </i>
+
+          <div class="div1">
+            <img src="images/ahmed.jpg" alt="#">
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100013035692872">Ahmed Samir Eldeeb</a>
+            </li>
+          </div>
+
+          <div class="div1">
+            <img src="images/amaar.jpg" alt="#">
+            <li>
+              <a href="https://www.facebook.com/ammar.bebo.16/">Ammar Bebo</a>
+            </li>
+          </div>
+
+          <div class="div1">
+            <img src="images/zainab.jpg" alt="#">
+            <li>
+              <a href="https://www.facebook.com/zienab.araby">Zainab Araby</a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <div class="nav-middle">
+      <a href="#" class="active">
+        <i class="fa fa-home"></i>
+      </a>
+
+      <a href="#">
+        <i class="fas fa-tv"></i>
+      </a>
+
+      <a href="#">
+        <i class="fas fa-store"></i>
+      </a>
+
+      <a href="#">
+        <i class="fa fa-users"></i>
+      </a>
+      <a href="">
+        <i class="fas fa-puzzle-piece"></i>
+      </a>
+    </div>
+
+    <div class="nav-right">
+      <div class="profile">
+        <a href="https://www.facebook.com/profile.php?id=100010144689198"><img
+            src="images/WhatsApp Image 2021-09-01 at 9.26.28 AM.jpeg" alt="user" /></a>
+            <a href="https://www.facebook.com/profile.php?id=100010144689198"><p>Abdulrahman</p></a>
+      </div>
+
+      <a href="#">
+        <i class="fas fa-bars"></i>
+      </a>
+      <a href="#">
+        <i class="fab fa-facebook-messenger"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-bell"></i>
+      </a>
+      <a href="#">
+        <i class="fas fa-caret-down"></i>
+      </a>
+    </div>
+  </nav>
+
+  <section class="sec_All">
+    <div class="column col-ms-0 col-me-0 col-lg-2 col-xl-2 left_side">
+      <ul>
+        <li>
+          <img class="userImg" src="images/WhatsApp Image 2021-09-01 at 9.26.28 AM.jpeg" alt="user" />
+          <a href="https://www.facebook.com/profile.php?id=100010144689198"><p>Abdulrahman</p></a>
+        </li>
+        <li>
+          <img src="images/-XF4FQcre_i.png" alt="Friends" />
+          <p>Friends</p>
+        </li>
+        <li>
+          <img src="images/EWFR9xI64Mg.png" alt="Jobs" />
+          <p>Jobs</p>
+        </li>
+        <li>
+          <img src="images/mk4dH3FK0jT.png" alt="Groups" />
+          <p>Groups</p>
+        </li>
+        <li>
+          <img src="images/9BDqQflVfXI.png" alt="MarketPlace" />
+          <p>Marketplace</p>
+        </li>
+        <li>
+          <img src="images/A1HlI2LVo58.png" alt="" />
+          <p>Watch</p>
+        </li>
+        <li>
+          <img src="images/AYj2837MmgX.png" alt="user" />
+          <p>Memories</p>
+        </li>
+        <li>
+          <img src="images/2uPlV4oORjU.png" alt="user" />
+          <p>Saved</p>
+        </li>
+        <li>
+          <img src="images/i7hepQ2OeZg.png" alt="user" />
+          <p>Pages</p>
+        </li>
+        <li>
+          <img src="images/_JPdPzLmp9j.png" alt="user" />
+          <p>Ad Centre</p>
+        </li>
+        <li>
+          <img src="images/qR88GIDM38e.png" alt="user" />
+          <p>Ads Manager</p>
+        </li>
+        <li>
+          <img src="images/K4SvMBrrneO.png" alt="user" />
+          <p>Blood Donations</p>
+        </li>
+        <li>
+          <img src="images/tKwWVioirmj.png" alt="user" />
+          <p>Climate Science Centre</p>
+        </li>
+        <li>
+          <img src="images/WreZVYrGEZH.png" alt="user" />
+          <p>Community Help</p>
+        </li>
+        <li>
+          <img src="images/tInzwsw2pVX.png" alt="user" />
+          <p>COVID-19 Information Centre</p>
+        </li>
+
+        <li>
+          <img src="images/WreZVYrGEZH.png" alt="user" />
+          <p>Community Help</p>
+        </li>
+        <li>
+          <img src="images/c.png" alt="user" />
+          <p>Emotional Health</p>
+        </li>
+        <li>
+          <img src="images/9-o1e6LN_TX.png" alt="user" />
+          <p>Events</p>
+        </li>
+        <li>
+          <img src="images/xH4w-lk44we.png" alt="user" />
+          <p>Facebook Pay</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="column col-ms-12 col-me-12 col-lg-8 col-xl-8 middle">
+      <div class="container">
+        <div class="firstleft">
+          <img class="firstimg" src="images/WhatsApp Image 2021-09-01 at 9.26.28 AM.jpeg" alt="first" />
+          <a href="#">
+            <i class="fa-solid fa-plus icons"></i></a>
+          <p>Make story</p>
+        </div>
+        <div class="firstleft second2">
+          <a href="#">
+            <img class="small" src="images/ahmed.jpg" alt="second" />
+          </a>
+          <img class="firstimg second" src="images/eldeeb.jpg" alt="second" />
+          <p>Ahmed Samir EldeeB</p>
+        </div>
+
+        <div class="firstleft second2">
+          <a href="#">
+            <img class="small" src="images/amaar.jpg" alt="third" />
+          </a>
+          <a href="#"><img class="firstimg second" src="images/amaar.jpg" alt="first" />
+          </a>
+          <p>Ammar Bebo</p>
+        </div>
+        <div class="firstleft second2">
+          <a href="#"><img class="small" src="images/zainab.jpg" alt="fourth" />
+          </a>
+          <img class="firstimg second" src="images/zainab.jpg" alt="first" />
+          <p>Zainab Araby</p>
+        </div>
+        <div class="firstleft second2">
+          <a href="#"><img class="small" src="images/pexels-photo-1024311.jpeg" alt="" />
+          </a>
+          <img class="firstimg second" src="images/pexels-photo-1024311.jpeg" alt="first" />
+          <p>JanA</p>
+        </div>
+      </div>
+
+      <div class="mind">
+        <div class="mind2">
+          <a href="#">
+            <img class="inmind" src="images/WhatsApp Image 2021-09-01 at 9.26.28 AM.jpeg" alt="hob" /></a>
+          <input onclick="show()" type="text" placeholder="What is in your mind Abdulrahman?" />
+        </div>
+        <div class="layer"></div>
+        <section class="col-sm-9 col-md-9 creat-post">
+          <div class="containe" id="post">
+            <div class="wrapper">
+              <section class="post">
+                <div class="close">
+                  <header>Create Post</header>
+                  <i class="fa fa-times" onclick="hide()" aria-hidden="true"></i>
+                </div>
+                <form  target="_parent">
+                  <div class="content">
+                    <img src="images/ahmed.jpg" alt="">
+                    <div class="details">
+                      <p>Ahmed Samir Eldeeb</p>
+                      <div class="privacy">
+                        <i class="fas fa-user-friends"></i>
+                        <span>Friends</span>
+                        <i class="fas fa-caret-down"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <textarea placeholder="What's on your Mind, CodingNepal?" required></textarea>
+                  <div class="theme-emoji">
+                    <img src="icons/theme.svg" alt="">
+                    <img src="icons/smile.svg" alt="">
+                  </div>
+                  <div class="options">
+                    <p>Add TO Your Post</p>
+                    <ul class="list">
+                      <li><img src="icons/gallery.svg" alt=""></li>
+                      <li><img src="icons/tag.svg" alt=""></li>
+                      <li><img src="icons/emoji.svg" alt=""></li>
+                      <li><img src="icons/more.svg" alt=""></li>
+                    </ul>
+                  </div>
+                  <button>Post</button>
+                </form>
+              </section>
+              <section class="audience">
+                <header>
+                  <div class="arrow-back"><i class="fas fa-arrow-left"></i></div>
+                  <p>Select Audience</p>
+                </header>
+                <div class="content">
+                  <p>Who Can See Your Post?</p>
+                  <span>Your Post Will Show up in News Feed, on Your profile and in search results.</span>
+                </div>
+                <ul class="list">
+                  <li>
+                    <div class="column">
+                      <div class="icon"><i class="fas fa-globe-asia"></i></div>
+                      <div class="details">
+                        <p>Public</p>
+                        <span>Anyone on or Facebook</span>
+                      </div>
+                    </div>
+                    <div class="radio"></div>
+                  </li>
+                  <li class="active">
+                    <div class="column">
+                      <div class="icon"><i class="fas fa-user-friends"></i></div>
+                      <div class="details">
+                        <p>Friends</p>
+                        <span>Your friends on Facebook</span>
+                      </div>
+                    </div>
+                    <div class="radio"></div>
+                  </li>
+                  <li>
+                    <div class="column">
+                      <div class="icon"><i class="fas fa-user"></i></div>
+                      <div class="details">
+                        <p>Specific</p>
+                        <span>Only show to some friends</span>
+                      </div>
+                    </div>
+                    <div class="radio"></div>
+                  </li>
+                  <li>
+                    <div class="column">
+                      <div class="icon"><i class="fas fa-lock"></i></div>
+                      <div class="details">
+                        <p>Only me</p>
+                        <span>Only you can see your post</span>
+                      </div>
+                    </div>
+                    <div class="radio"></div>
+                  </li>
+                  <li>
+                    <div class="column">
+                      <div class="icon"><i class="fas fa-cog"></i></div>
+                      <div class="details">
+                        <p>Custom</p>
+                        <span>Include and exclude friends</span>
+                      </div>
+                    </div>
+                    <div class="radio"></div>
+                  </li>
+                </ul>
+              </section>
+            </div>
+          </div>
+        </section>
+
+        <hr />
+
+        <div class="under">
+          <div class="firstu">
+            <a href="#"><i class="fas fa-video"></i></a>
+            <a href="#" class="caption">live video</a>
+          </div>
+          <div class="firstu">
+            <a href="#"><i class="fas fa-images"></i></a>
+            <a href="#" class="caption">images/videos</a>
+          </div>
+          <div class="firstu">
+            <a href="#"><i class="far fa-laugh"></i></a>
+            <a href="#" class="caption">filling/active</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="Fpost">
+        <div class="postDetails">
+          <div class="postDetail">
+            <img src="images/ahmed.jpg" alt="" />
+
+            <div>
+              <a href="https://www.facebook.com/profile.php?id=100013035692872"><h3>Ahmed Samir Eldeeb</h3></a>
+              <p>10 hrs ago</p>
+            </div>
+          </div>
+
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+
+        <div class="thepost">
+          <p>Dont stop until you proud of yourself 😉💪</p>
+          <img src="images/ahmed1.jpg" alt="#" />
+        </div>
+
+        <div class="reacts">
+          <div>
+            <i class="far fa-thumbs-up"></i>
+            <p>Like</p>
+          </div>
+
+          <div>
+            <i class="far fa-comment"></i>
+
+            <p>comment</p>
+          </div>
+          <div>
+            <i class="fas fa-share"></i>
+
+            <p>share</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="Fpost">
+        <div class="postDetails">
+          <div class="postDetail">
+            <img src="images/ahmed.jpg" alt="" />
+            <div>
+              
+              <a href="https://www.facebook.com/profile.php?id=100013035692872"><h3>Ahmed Samir Eldeeb</h3></a>
+              <p>10 hrs ago</p>
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="thepost">
+          <p>الحياه مليئة بالحجارة فلا تتعثر بها ، بل اجمعها و ابن بها سلماً تصعد به نحو النجاح🖤</p>
+        </div>
+        <div class="reacts">
+          <div>
+            <i class="far fa-thumbs-up"></i>
+
+            <p>Like</p>
+          </div>
+          <div>
+            <i class="far fa-comment"></i>
+
+            <p>comment</p>
+          </div>
+          <div>
+            <i class="fas fa-share"></i>
+
+            <p>share</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="Fpost">
+        <div class="postDetails">
+          <div class="postDetail">
+            <img src="images/ahmed.jpg" alt="" />
+            <div>
+              <a href="https://www.facebook.com/profile.php?id=100013035692872"><h3>Ahmed Samir Eldeeb</h3></a>
+              <p>2 hrs ago</p>
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="thepost">
+          <p>Don't stop dreaming, success is not easy</p>
+          <img width="100px" src="images/eldeeb-code.png" alt="" />
+        </div>
+        <div class="reacts">
+          <div>
+            <i class="far fa-thumbs-up"></i>
+
+            <p>Like</p>
+          </div>
+          <div>
+            <i class="far fa-comment"></i>
+
+            <p>comment</p>
+          </div>
+          <div>
+            <i class="fas fa-share"></i>
+
+            <p>share</p>
+          </div>
+        </div>
+      </div>
+      <div class="Fpost">
+        <div class="postDetails">
+          <div class="postDetail">
+            <img src="images/ahmed.jpg" alt="" />
+            <div>
+              <a href="https://www.facebook.com/profile.php?id=100013035692872"><h3>Ahmed Samir Eldeeb</h3></a>
+              <p>3 hrs ago</p>
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="thepost">
+          <p>Mag Capm</p>
+          <img width="100px" src="images/mag.jpg" alt="" />
+        </div>
+        <div class="reacts">
+          <div>
+            <i class="far fa-thumbs-up"></i>
+
+            <p>Like</p>
+          </div>
+          <div>
+            <i class="far fa-comment"></i>
+
+            <p>comment</p>
+          </div>
+          <div>
+            <i class="fas fa-share"></i>
+
+            <p>share</p>
+          </div>
+        </div>
+      </div>
+      <div class="Fpost">
+        <div class="postDetails">
+          <div class="postDetail">
+            <img src="images/WhatsApp Image 2021-09-01 at 9.26.28 AM.jpeg" alt="" />
+            <div>
+              <a href="https://www.facebook.com/profile.php?id=100010144689198"><h3>Abdulrahman</h3></a>
+              <p>2 days ago</p>
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="thepost">
+          <p>
+              من اشخاص جابتها من تحت الصفر<br>
+              ركز علي المجالات دي هي ال Top و المستقبل كله ✨<br>
+              1- Web development <br>
+              Front end + Back end ✅<br>
+              2- Mobile Apps Android + IOS ✅<br>
+              3- Ai ( ml ) ✅<br>
+              4- Data analysis ✅<br>
+              5- Data Science ✅<br>
+              6- Blockchain ( Web3 ) ✅<br>
+              7- DevOps ✅<br>
+              8- Cyber Security ✅<br>
+              اشبك في اي حاجة فيهم وصدقني حياتك هتتحول ١٨٠ درجة .. 👍🏻✅<br>
+              ومش لازم شهادة عشان تشتغل في اي حاجة من دول 🔥👌<br>
+            </p>
+        </div>
+        <div class="reacts">
+          <div>
+            <i class="far fa-thumbs-up"></i>
+
+            <p>Like</p>
+          </div>
+          <div>
+            <i class="far fa-comment"></i>
+
+            <p>comment</p>
+          </div>
+          <div>
+            <i class="fas fa-share"></i>
+
+            <p>share</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="Fpost">
+        <div class="postDetails">
+          <div class="postDetail">
+            <img src="images/WhatsApp Image 2021-09-01 at 9.26.28 AM.jpeg" alt="" />
+            <div>
+              <a href="https://www.facebook.com/profile.php?id=100010144689198"><h3>Abdulrahman</h3></a>
+              <p>2 days ago</p>
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="thepost">
+          <p>
+              انت بجد لازم تتعلم تثق في ربنا انت عارف ان ممكن
+              اي حاجة تتحقق فعلا لو مشيت في طريقها ؟
+              ده في لحظة ممكن كل حاجة تتشقلب وتتغير من الصفر ل فوق اوي ،انت بس كل
+              المطلوب منك متأذيش حد !! الاذية ممكن تكون بالكلمة !! متجيش علي حد
+              ولا تظلم حد ! ، خليك بسيط خليك بسيط خليك بسيط
+              ( البساطة وخليك في حالك ببساطة وروقان ) ♥️✨
+              ١- إِنَّهُ لاَ يَيْأَسُ مِن رَّوْحِ اللّهِ إِلاَّ الْقَوْمُ الْكَافِرُونَ♥️
+              ٢- وَأُفَوِّضُ أَمْرِي إِلَى اللَّهِ إِنَّ اللَّهَ بَصِيرٌ بِالْعِبَادِ♥️</p>
+        </div>
+        <div class="reacts">
+          <div>
+            <i class="far fa-thumbs-up"></i>
+
+            <p>Like</p>
+          </div>
+          <div>
+            <i class="far fa-comment"></i>
+
+            <p>comment</p>
+          </div>
+          <div>
+            <i class="fas fa-share"></i>
+
+            <p>share</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="Fpost">
+        <div class="postDetails">
+          <div class="postDetail">
+            <img src="images/WhatsApp Image 2021-09-01 at 9.26.28 AM.jpeg" alt="" />
+            <div>
+              <a href="https://www.facebook.com/profile.php?id=100010144689198"><h3>Abdulrahman</h3></a>
+              <p>2 days ago</p>
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="thepost">
+          <p>
+              انت كل اللي محتاجه تتعب وتستمر وتقول الحمدلله
+              وتبقي راضي ، وهتلاقيها بتمشي وتعدي وهتبقي زي الفل ♥️✨</p>
+        </div>
+        <div class="reacts">
+          <div>
+            <i class="far fa-thumbs-up"></i>
+
+            <p>Like</p>
+          </div>
+          <div>
+            <i class="far fa-comment"></i>
+
+            <p>comment</p>
+          </div>
+          <div>
+            <i class="fas fa-share"></i>
+
+            <p>share</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="Fpost">
+        <div class="postDetails">
+          <div class="postDetail">
+            <img src="images/WhatsApp Image 2021-09-01 at 9.26.28 AM.jpeg" alt="" />
+            <div>
+              <a href="https://www.facebook.com/profile.php?id=100010144689198"><h3>Abdulrahman</h3></a>
+              <p>2 days ago</p>
+            </div>
+          </div>
+          <i class="fas fa-ellipsis-h"></i>
+        </div>
+        <div class="thepost">
+          <p>
+              حقيقي عايز حياتك تتغير ، عايز تنجح ، عايز تبقي حياتك واوركز في دول ♥️
+              ١- إِنَّ اللّهَ لاَ يُغَيِّرُ مَا بِقَوْمٍ حَتَّى يُغَيِّرُواْ مَا بِأَنْفُسِهِمْ .
+              ٢- ان الله يساعد الذين يساعدون انفسهم .
+              ابعد عن الناس اللي عايشة حياتها بدون خطة
+              واللي مفكرة ان الكلام ده تنمية بشرية ..
+              التنمية البشرية دي اساس كل حاجة من امتي وهي عيب ؟ ( اساس تغيير عقليتك )
+              هي التنمية البشرية فلما تلاقي واحد مش فاهم الكلام ده
+              اعرف ان عقليته علي قدها متحاولش بقي تقعد تهري كتير ♥️✨
+              المعادلة هدف - خطة للهدف - استمرار علي الهدف = نجاح ♥️
+              لانك طبقت كلام ربنا ، السعي والتوكل ♥️👌</p>
+        </div>
+        <div class="reacts">
+          <div>
+            <i class="far fa-thumbs-up"></i>
+
+            <p>Like</p>
+          </div>
+          <div>
+            <i class="far fa-comment"></i>
+
+            <p>comment</p>
+          </div>
+          <div>
+            <i class="fas fa-share"></i>
+
+            <p>share</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column col-ms-0 col-me-0 col-lg-2 col-xl-2 right_side">
+      <div class="sponsored">
+        <p>Sponsored</p>
+        <div>
+          <img src="images/251050403_6248445298689_4362938409879778268_n.jpg" alt="" />
+          <h3>Find Hope</h3>
+        </div>
+        <div>
+          <img src="images/236592212_23848122439070201_4651578862776998849_n.jpg" alt="" />
+          <h3>Adobe photoshop <br />lightroom</h3>
+        </div>
+      </div>
+
+      <div class="contacts">
+        <div class="contact_icons">
+          <p>Contacts</p>
+
+          <div>
+            <i class="fas fa-video"></i>
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+        </div>
+
+        <ul>
+          <li>
+            <img src="images/pexels-photo-4939461.jpeg" alt="" />
+            <p>lilly</p>
+          </li>
+          <li>
+            <img src="images/pexels-photo-1043474.jpeg" alt="" />
+            <p>peter</p>
+          </li>
+          <li>
+            <img src="images/pexels-photo-156934.jpeg" alt="" />
+            <p>ali</p>
+          </li>
+          <li>
+            <img src="images/pexels-photo-4691417.jpeg" alt="" />
+            <p>waad</p>
+          </li>
+          <li>
+            <img src="images/pexels-photo.jpg" alt="" />
+            <p>ahmed</p>
+          </li>
+          <li>
+            <img src="images/pexels-photo-1300402.jpeg" alt="" />
+            <p>nader</p>
+          </li>
+          <li>
+            <img src="images/pexels-photo-774909.jpeg" alt="" />
+            <p>sara</p>
+          </li>
+          <li>
+            <img src="images/pexels-photo-1239291.jpeg" alt="" />
+            <p>nada</p>
+          </li>
+          <li>
+            <img src="images/pexels-photo-1024311.jpeg" alt="" />
+            <p>jana</p>
+          </li>
+          <li>
+            <img src="images/pexels-photo-1681010.jpeg" alt="" />
+            <p>john</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <script src="main23.js"></script>
+</body>
+
+</html>

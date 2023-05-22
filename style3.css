@@ -1,0 +1,693 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f0f2f5;
+  line-height: 1.34;
+}
+
+.Facebook-image {
+  width: 280px;
+  margin-top: 170px;
+  margin-left: -10px;
+}
+
+.text {
+  line-height: 28px;
+  padding: 0 0 20px;
+  margin-left: 2px;
+}
+
+div h1 {
+  font-size: 28px;
+  font-weight: 600px;
+  width: 31rem;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.form1 {
+  position: absolute;
+  top: 130px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding-top: 16px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 25px;
+  transition: 0.5s;
+}
+
+.input1 {
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 360px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  outline: none;
+}
+
+.input1:focus {
+  box-shadow: 0px 0px 1px 1px rgb(22, 111, 229);
+}
+
+.input2 {
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 360px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  margin-top: 10px;
+  outline: none;
+}
+
+.input2:focus {
+  box-shadow: 0px 0px 1px 1px rgb(22, 111, 229);
+}
+
+.input3 {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+  color: #fff;
+  box-sizing: content-box;
+  font-weight: bold;
+  position: relative;
+  margin-top: 13px;
+}
+
+.erroe1 {
+  color: red;
+  width: 370px;
+}
+
+.error2 {
+  color: red;
+  width: 370px;
+}
+
+.f_password {
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+}
+
+.button1 {
+  padding: 0 16px;
+  font-size: 18px;
+  font-weight: 500px;
+  border-radius: 6px;
+  background-color: #42b72a;
+  color: #fff;
+  border: none;
+  line-height: 48px;
+  margin-top: 13px;
+  margin-left: 100px;
+}
+
+.button1:hover {
+  background-color: #45a72c;
+}
+
+hr {
+  margin-top: -7px;
+}
+
+.form2 {
+  position: absolute;
+  bottom: 50px;
+  border-radius: 8px;
+  padding: 15px 15px 20px 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: none;
+  z-index: 22222;
+  transition: 0.3s;
+  background-color: white;
+  width: 27rem;
+}
+
+.first_n {
+  width: 190px;
+  padding: 11px;
+  font-size: 15px;
+  line-height: 16px;
+  font-family: 'Roboto', sans-serif;
+  background: #f5f6f7;
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
+  font-weight: bold;
+  outline: none;
+}
+
+.last_n {
+  width: 190px;
+  padding: 11px;
+  margin-left: 7px;
+  font-size: 15px;
+  line-height: 16px;
+  font-family: 'Roboto', sans-serif;
+  background: #f5f6f7;
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
+  font-weight: bold;
+  outline: none;
+}
+
+.email {
+  width: 395px;
+  padding: 11px;
+  font-size: 15px;
+  line-height: 16px;
+  font-family: 'Roboto', sans-serif;
+  background: #f5f6f7;
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
+  font-weight: bold;
+  outline: none;
+}
+
+.password {
+  width: 395px;
+  padding: 11px;
+  font-size: 15px;
+  line-height: 16px;
+  font-family: 'Roboto', sans-serif;
+  background: #f5f6f7;
+  border-radius: 5px;
+  border: 1px solid #bdbdbd;
+  font-weight: bold;
+  outline: none;
+}
+
+.select2 {
+  border-radius: 4px;
+  color: #1c1e21;
+  font-size: 15px;
+  font-weight: normal;
+  height: 36px;
+  line-height: 20px;
+  width: 123px;
+  margin-left: 10px;
+}
+
+.select3 {
+  border-radius: 4px;
+  color: #1c1e21;
+  font-size: 15px;
+  font-weight: normal;
+  height: 36px;
+  line-height: 20px;
+  width: 123px;
+  margin-left: 10px;
+}
+
+.select1 {
+  border-radius: 4px;
+  color: #1c1e21;
+  font-size: 15px;
+  font-weight: normal;
+  height: 36px;
+  line-height: 20px;
+  width: 123px;
+}
+
+.ammart {
+  display: flex;
+}
+
+.Gender1 {
+  border-radius: 4px;
+  color: #1c1e21;
+  font-size: 15px;
+  height: 36px;
+  line-height: 20px;
+  width: 125px;
+  border: 1px solid #bdbdbd;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 100px;
+  background-color: #fff;
+}
+
+.Gender2 {
+  border-radius: 4px;
+  color: #1c1e21;
+  font-size: 15px;
+  line-height: 20px;
+  width: 125px;
+  border: 1px solid #bdbdbd;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  background-color: #fff;
+}
+
+.Gender3 {
+  border-radius: 4px;
+  color: #1c1e21;
+  font-size: 15px;
+  width: 125px;
+  border: 1px solid #bdbdbd;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  margin-left: 8px;
+  background-color: #fff;
+}
+
+
+.SignUp {
+  color: #1c1e21;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 600px;
+  margin-bottom: 20px;
+}
+
+.text_under {
+  color: #606770;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: -22px;
+}
+
+.qqqqq {
+  margin-top: -10px;
+  margin-bottom: 15px;
+  width: px;
+}
+
+.Date {
+  color: #606770;
+  font-size: 12px;
+  font-weight: 100px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 0.5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text55 {
+  margin-top: 20px;
+  font-size: 11px;
+  width: 370px;
+
+}
+
+.text555 {
+  font-size: 11px;
+  width: 370px;
+  margin-left: 55px;
+  margin-top: -27px;
+}
+
+.s2 {
+  color: #1877f2;
+  cursor: pointer;
+}
+
+.sdf {
+  margin-top: 20px;
+  font-size: 11px;
+  width: 370px;
+}
+
+.Gender {
+  color: #606770;
+  font-size: 12px;
+  font-weight: 100px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 0.5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.input6 {
+  background-color: #00a400;
+  border: none;
+  border-radius: 6px;
+  box-shadow: none;
+  color: #fff;
+  font-size: 18px;
+  height: 36px;
+  padding: 0 70px;
+  text-shadow: none;
+  margin-top: 25px;
+  margin-left: 90px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.input6:hover {
+  background-color: #3b843b;
+}
+
+.closebtn {
+  color: #606770;
+  position: absolute;
+  margin-left: 350px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.closebtn::before {
+  position: absolute;
+  left: 0;
+  height: 0.1px;
+  width: 0;
+  background-color: #ffffff;
+  margin-top: 35px;
+}
+
+input {
+  padding: 10px;
+}
+
+.maleeee {
+  padding-right: 40px;
+}
+
+.show {
+  display: block;
+}
+
+.layer {
+  height: 100vh;
+  width: 100%;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 22;
+  opacity: 0.5;
+  display: none;
+}
+
+.home-2 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 501px) {
+
+  .Facebook-image {
+    display: block;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    margin-top: 2vh;
+  }
+
+  div h1 {
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    width: 17rem;
+    margin-top: 0vh;
+    /* margin-left: -3rem; */
+  }
+
+  .form1 {
+    width: 45vh;
+    margin: auto;
+    margin-left: 4vh;
+    margin-top: -15vh;
+  }
+
+  .input1 {
+    width: 17rem;
+  }
+
+  .input2 {
+    width: 17rem;
+  }
+
+  .input3 {
+    width: 15rem;
+  }
+
+  .button1 {
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 40px;
+    margin-top: 13px;
+    margin-left: 10vh;
+  }
+
+  .closebtn {
+    margin-left: 325px;
+  }
+  .form2 {
+    z-index: 22222222;
+    transition: 0.3s;
+    width: 24rem;
+  }
+  .first_n {
+    width: 171px;
+    line-height: 16px;
+  }
+  
+  .last_n {
+    width: 171px;
+    line-height: 16px;
+  }
+  
+  .email {
+    width: 354px;
+  }
+  
+  .password {
+    width: 354px;
+  }
+  
+  .select1 {
+    height: 36px;
+    width: 108px;
+  }
+  .select2 {
+
+    height: 36px;
+    width: 108px;
+  }
+  
+  .select3 {
+    height: 36px;
+    width: 108px;
+  }
+  
+  .Gender1 {
+    width: 112px;
+  }
+  
+  .Gender2 {
+    width: 112px;
+  }
+  
+  .Gender3 {
+    width: 112px;
+  }
+}
+
+
+@media only screen and (min-width: 500px) and (max-width: 720px) {
+  .Facebook-image {
+    display: block;
+    justify-content: center;
+    width: 300px;
+    margin-top: 2vh;
+    margin: auto;
+  }
+
+
+
+  div h1 {
+    font-size: 22px;
+    width: 25rem;
+    text-align: center;
+  }
+
+  .form1 {
+    width: 43vh;
+    margin-top: 1vh;
+    margin-left: 6.5vh;
+  }
+
+  .input1 {
+    width: 21rem;
+  }
+
+  .input2 {
+    width: 21rem;
+  }
+
+  .input3 {
+    width: 19rem;
+  }
+
+  .button1 {
+    line-height: 40px;
+    margin-top: 13px;
+    margin-left: 85px;
+    width: 20vh;
+    font-size: 15px;
+  }
+  .form2 {
+    z-index: 22222222;
+    transition: 0.3s;
+    width: 25rem;
+  }
+
+  .first_n {
+    width: 175px;
+    line-height: 16px;
+  }
+  
+  .last_n {
+    width: 175px;
+    line-height: 16px;
+  }
+  
+  .email {
+    width: 363px;
+  }
+  
+  .password {
+    width: 363px;
+  }
+  
+  .select2 {
+
+    height: 36px;
+    width: 111px;
+  }
+  
+  .select3 {
+    height: 36px;
+    width: 111px;
+  }
+  
+  .select1 {
+    height: 36px;
+    width: 111px;
+  }
+  .Gender1 {
+    width: 115px;
+  }
+  
+  .Gender2 {
+    width: 115px;
+  }
+  
+  .Gender3 {
+    width: 115px;
+  }
+
+}
+
+@media only screen and (min-width: 721px) and (max-width: 960px) {
+  .Facebook-image {
+    width: 280px;
+    margin-top: 150px;
+    text-align: center;
+    margin-top: 1vh;
+  }
+
+  div h1 {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    width: 28rem;
+  }
+
+  .form1 {
+    width: 47vh;
+    margin: auto;
+    margin-left: auto;
+  }
+
+  .input1 {
+    width: 23rem;
+  }
+
+  .input2 {
+    width: 23rem;
+  }
+
+  .input3 {
+    width: 21rem;
+  }
+
+  .button1 {
+    line-height: 40px;
+    margin-top: 13px;
+    margin-left: 100px;
+  }
+
+  .form2 {
+    z-index: 22222;
+    width: 27rem;
+  }
+}
+
+@media only screen and (min-width: 961px) and (max-width: 1200px) {
+  .Facebook-image {
+    width: 280px;
+    margin-top: 150px;
+    text-align: center;
+  }
+
+  div h1 {
+    font-size: 26px;
+    line-height: 28px;
+    width: 29rem;
+  }
+
+  .form1 {
+    width: 60 vh;
+    margin: auto;
+    margin-left: auto;
+  }
+
+  .input1 {
+    width: 23rem;
+  }
+
+  .input2 {
+    width: 23rem;
+  }
+
+  .input3 {
+    width: 21rem;
+  }
+}
